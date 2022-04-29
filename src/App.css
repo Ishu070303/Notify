@@ -1,0 +1,34 @@
+*{
+  font-family: 'Cabin';
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.login{
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    width: 150px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+button{
+    width: 60%;
+    padding: 10px;
+    background-color: #43b3ae;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
