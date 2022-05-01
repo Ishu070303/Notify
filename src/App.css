@@ -9,6 +9,12 @@ body{
     justify-content: center;
 }
 
+.container{
+    width: 50vh;
+    border-radius: 5px;
+    border: 1px solid #44d7a8;
+}
+
 .login{
     height: 50vh;
     display: flex;
@@ -31,4 +37,13 @@ button{
     border: none;
     border-radius: 5px;
     cursor: pointer;
+}
+
+.username{
+    font-weight: bold;
+    color: #44d7a8;
+    position: absolute;
+    top: 15px;
+    font-size: 20px;
+    right: 20px;
 }
